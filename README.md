@@ -161,13 +161,3 @@ dependencies:
 ### Tabla: `entregas`
 - `id` (PK), `paquete_id` (FK), `agente_id` (FK), `lat`, `lon`
 - `foto_path`, `timestamp`
-
-## 🛠️ Solución de Problemas
-
-### Error: "No se puede conectar a la API"
-```bash
-# Verifica que el servidor FastAPI esté corriendo
-curl http://localhost:8000/paquetes
-
-# Actualiza la IP en los servicios de Flutter
-# Usa tu IP local, no 127.0.0.1 pa
